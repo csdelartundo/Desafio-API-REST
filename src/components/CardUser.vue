@@ -49,6 +49,7 @@ export default {
     border-radius: 50%;
     width: 150px;
     margin-bottom: 5px;
+    border: 1px solid #3c3939;
 }
 
 .user-message {

@@ -1,7 +1,6 @@
 <template>
     <div class="chat-content">
         <div class="user-panel left-panel">
-            
             <CardUser v-if="usuarios[0]" :usuario="usuarios[0]" :esPropio="true" @enviarMensaje="enviarMensaje" />
         </div>
         <div class="chat-box">
@@ -11,7 +10,6 @@
             </div>
         </div>
         <div class="user-panel right-panel">
-            
             <CardUser v-if="usuarios[1]" :usuario="usuarios[1]" :esPropio="false" @enviarMensaje="enviarMensaje" />
         </div>
     </div>
